@@ -1,18 +1,18 @@
 #1. change env /etc/profile  
-PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
+PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig  
 export PKG_CONFIG_PATH
-CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/local/include/leptonica
+CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/local/include/leptonica  
 export CPLUS_INCLUDE_PATH
-C_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/local/include/leptonica
-export C_INCLUDE_PATH
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
-export LD_LIBRARY_PATH
-LIBRARY_PATH=$LIBRARY_PATH:/usr/local/lib
-export LIBRARY_PATH
-LIBLEPT_HEADERSDIR=/usr/local/include/leptonica
-export LIBLEPT_HEADERSDIR
-TESSDATA_PREFIX=/root/tesseract/tessdata
-export TESSDATA_PREFIX
+C_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/local/include/leptonica  
+export C_INCLUDE_PATH  
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib  
+export LD_LIBRARY_PATH  
+LIBRARY_PATH=$LIBRARY_PATH:/usr/local/lib  
+export LIBRARY_PATH  
+LIBLEPT_HEADERSDIR=/usr/local/include/leptonica  
+export LIBLEPT_HEADERSDIR  
+TESSDATA_PREFIX=/root/tesseract/tessdata  
+export TESSDATA_PREFIX  
 
 #2. yum install deps  
 yum install libtiff-devel libjpeg-devel libpng-devel openjpeg2 ImageMagick  
