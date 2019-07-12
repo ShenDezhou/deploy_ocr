@@ -1,10 +1,13 @@
 #1. python  
 安装python3.6  
-yum install -y https://centos7.iuscommunity.org/ius-release.rpm
+yum install -y https://centos7.iuscommunity.org/ius-release.rpm  
 yum install -y python36u python36u-libs python36u-devel python36u-pip  
+alternatives --install /usr/bin/python python /usr/bin/python2 50  
+alternatives --install /usr/bin/python python /usr/bin/python3.6 60  
+python3.6 -m ensurepip  
 
-#2. tensorflow gpu
-pip install tensorflow-gpu==2.0.0b1
+#2. tensorflow gpu  
+pip install tensorflow-gpu==2.0.0b1  
 
 #3. pytorch  
 pip install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-linux_x86_64.whl  
