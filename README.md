@@ -15,6 +15,7 @@ TESSDATA_PREFIX=/root/tesseract/tessdata
 export TESSDATA_PREFIX  
 
 #2. yum install deps  
+yum install automake autoconf  libtool pkg-config  
 yum install libtiff-devel libjpeg-devel libpng-devel openjpeg2 ImageMagick  
 
 #3. lstm models  
@@ -22,6 +23,7 @@ git clone https://github.com/tesseract-ocr/tessdata.git
 
 #4. deps  
 git clone https://github.com/DanBloomberg/leptonica.git  
+http://www.leptonica.org/source/README.html  
 
 #5. install g++ 5.1  
 [warning:fedora]  
