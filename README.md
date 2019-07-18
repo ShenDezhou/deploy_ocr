@@ -15,7 +15,7 @@ TESSDATA_PREFIX=/root/tesseract/tessdata
 export TESSDATA_PREFIX  
 
 #2. yum install deps  
-yum install automake autoconf  libtool pkg-config git  
+yum install automake autoconf gcc-c++ libtool pkg-config git  
 yum install libtiff-devel libjpeg-devel libpng-devel openjpeg2 ImageMagick  
 
 #3. lstm models  
